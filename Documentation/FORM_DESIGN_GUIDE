@@ -1,0 +1,101 @@
+# Lending Management System - UserForm Design Guide
+## Complete Instructions for Creating All Forms
+
+---
+
+## TABLE OF CONTENTS
+1. frmLogin - User Authentication Form
+2. frmDashboard - Main Navigation Form
+3. frmBorrower - Borrower Management Form
+4. frmLoan - Loan Management Form
+5. frmPayment - Payment Recording Form
+6. frmCollector - Collector Management Form
+
+---
+
+## FORM 1: frmLogin - User Authentication Form
+
+### Purpose
+Authenticate users before accessing the system with username and password validation.
+
+### Form Properties
+| Property | Value |
+|----------|-------|
+| Name | frmLogin |
+| Caption | Lending Management System - Login |
+| Width | 400 |
+| Height | 300 |
+| StartupPosition | 1 (Center Owner) |
+| BackColor | White |
+
+### Controls to Add
+
+#### 1. Title Label
+- **Name:** lblTitle
+- **Caption:** Lending Management System
+- **Left:** 20, **Top:** 20
+- **Width:** 350, **Height:** 25
+- **Font:** Size 16, Bold
+
+#### 2. Logo/Image (Optional)
+- **Name:** imgLogo
+- **Left:** 150, **Top:** 50
+- **Width:** 100, **Height:** 50
+- **Picture:** Your company logo
+
+#### 3. Username Label
+- **Name:** lblUsername
+- **Caption:** Username:
+- **Left:** 20, **Top:** 120
+- **Width:** 80, **Height:** 20
+- **Font:** Size 10
+
+#### 4. Username TextBox
+- **Name:** txtUsername
+- **Left:** 110, **Top:** 120
+- **Width:** 250, **Height:** 20
+- **BackColor:** White
+- **BorderStyle:** 1 (Single)
+
+#### 5. Password Label
+- **Name:** lblPassword
+- **Caption:** Password:
+- **Left:** 20, **Top:** 150
+- **Width:** 80, **Height:** 20
+- **Font:** Size 10
+
+#### 6. Password TextBox
+- **Name:** txtPassword
+- **Left:** 110, **Top:** 150
+- **Width:** 250, **Height:** 20
+- **PasswordChar:** *
+- **BackColor:** White
+- **BorderStyle:** 1 (Single)
+
+#### 7. Error Message Label
+- **Name:** lblErrorMessage
+- **Caption:** (empty)
+- **Left:** 20, **Top:** 180
+- **Width:** 340, **Height:** 20
+- **ForeColor:** Red
+- **Font:** Size 9
+
+#### 8. Login Button
+- **Name:** cmdLogin
+- **Caption:** Login
+- **Left:** 110, **Top:** 220
+- **Width:** 100, **Height:** 30
+- **BackColor:** Green
+- **ForeColor:** White
+- **Font:** Size 11, Bold
+
+#### 9. Cancel Button
+- **Name:** cmdCancel
+- **Caption:** Cancel
+- **Left:** 260, **Top:** 220
+- **Width:** 100, **Height:** 30
+- **BackColor:** Red
+- **ForeColor:** White
+- **Font:** Size 11, Bold
+
+### Form Layout Diagram
