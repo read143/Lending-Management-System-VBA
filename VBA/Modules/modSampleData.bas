@@ -361,35 +361,3 @@ Private Function EncryptPassword(password As String) As String
     ' Simple encryption - reverse + suffix
     EncryptPassword = StrReverse(password) & "###"
 End Function
-
-' ============================================================
-' SAMPLE DATA SUMMARY
-' ============================================================
-' 
-' USERS (4 test accounts):
-' ├── admin / admin123 (Admin role)
-' ├── collector1 / collector123 (Collector role)
-' ├── manager / manager123 (Manager role)
-' └── assistant / assistant123 (Assistant role)
-'
-' BORROWERS (10 records):
-' ├── BOR000001 - BOR000010
-' └── Various names, addresses, occupations
-'
-' COLLECTORS (5 records):
-' ├── COL000001 - COL000005
-' └── Each with 5% commission
-'
-' LOANS (10 records):
-' ├── LN000001 - LN000010
-' ├── Principal: 6,000 - 15,000 PHP
-' ├── Interest Rate: 15%
-' ├── Terms: 12 months
-' └── Status: Active
-'
-' PAYMENTS (9 records):
-' ├── PM000001 - PM000009
-' ├── 3 payments per first 3 loans
-' └── Payments record transaction history
-'
-' ============================================================
